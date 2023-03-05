@@ -2,6 +2,14 @@
 
 Ruby version manager. Built with Rust, fast, has own language installer (doesn't need additional program).
 
+## Install OpenSSL
+
+Many Ruby gems (including Rails) require OpenSSL, which isn't included in Ruby. By default `frum` uses OpenSSL installed via Homebrew.
+
+```sh
+brew install openssl
+```
+
 ## Install (with Brew)
 
 ```sh
